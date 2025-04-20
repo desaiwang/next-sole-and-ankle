@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import { CATEGORIES } from '@/constants';
-import CategorySidebar from '@/components/CategorySidebar';
+import { CATEGORIES } from "@/constants";
+import CategorySidebar from "@/components/CategorySidebar";
 
-import styles from './CategoryLayout.module.css';
+import styles from "./CategoryLayout.module.css";
 
 async function CategoryLayout({ params, children }) {
   const { categorySlug } = await params;
